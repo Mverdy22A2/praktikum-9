@@ -26,6 +26,8 @@ Clause
     
 ![image](https://user-images.githubusercontent.com/115523263/208497659-bbca81e6-41e9-48d2-b7e6-013229060a1d.png)
 
+#
+
 Exception Statement
 
     try:
@@ -38,6 +40,8 @@ Exception Statement
         fh.close()
     
 ![image](https://user-images.githubusercontent.com/115523263/208497802-6fac839b-2f6c-4219-8a7e-144f37347ff5.png)
+
+#
 
 Try-finally clause
 
@@ -53,6 +57,8 @@ Try-finally clause
 
 ![image](https://user-images.githubusercontent.com/115523263/208499667-0fb98d39-2587-4649-a06a-9b041df2eac2.png)
 
+#
+
 exception argument
 
     def temp_convert(var):
@@ -65,6 +71,8 @@ exception argument
 
 ![image](https://user-images.githubusercontent.com/115523263/208500470-4f7b95e0-e4b5-4b3a-96af-fb35c2db6efa.png)
 
+#
+
 Raise
 
     def functionName( level ):
@@ -72,6 +80,8 @@ Raise
             raise ("Invalid level!", level)
         
 ![image](https://user-images.githubusercontent.com/115523263/208500870-109d94f1-86f4-47d0-bd24-8437f2dbe37f.png)
+
+#
 
 User Defined
 
