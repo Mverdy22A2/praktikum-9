@@ -9,14 +9,14 @@
          
 ![image](https://user-images.githubusercontent.com/115523263/208497551-83cb17f4-5933-4c1b-a24e-525045f66e18.png)
 
-try:
-    fh = open("testfile", "w")
-    fh.write("This is my test file for exception handling!!")
-except IOError:
-    print ("Error: can\'t find file or read data")
-else:
-    print ("Written content in the file successfully")
-    fh.close()
+ try:
+     fh = open("testfile", "w")
+     fh.write("This is my test file for exception handling!!")
+ except IOError:
+     print ("Error: can\'t find file or read data")
+ else:
+     print ("Written content in the file successfully")
+     fh.close()
     
 ![image](https://user-images.githubusercontent.com/115523263/208497659-bbca81e6-41e9-48d2-b7e6-013229060a1d.png)
 
