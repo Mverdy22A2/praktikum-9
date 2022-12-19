@@ -6,7 +6,6 @@ return ((Temperature-273)*1.8)+32
 print KelvinToFahrenheit(273)
 print int(KelvinToFahrenheit(505.78))
 print KelvinToFahrenheit(-5)
- 
 ![image](https://user-images.githubusercontent.com/115523263/208497551-83cb17f4-5933-4c1b-a24e-525045f66e18.png)
 
 try:
@@ -17,7 +16,6 @@ except IOError:
 else:
     print ("Written content in the file successfully")
     fh.close()
-
 ![image](https://user-images.githubusercontent.com/115523263/208497659-bbca81e6-41e9-48d2-b7e6-013229060a1d.png)
 
 try:
