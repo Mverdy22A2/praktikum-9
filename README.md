@@ -1,12 +1,12 @@
 # praktikum-9
 
-def KelvinToFahrenheit(Temperature):
-   assert (Temperature >= 0),"Colder than absolute zero!"
-   return ((Temperature-273)*1.8)+32
-print (KelvinToFahrenheit(273))
-print (int(KelvinToFahrenheit(505.78)))
-print (KelvinToFahrenheit(-5))
-
+ def KelvinToFahrenheit(Temperature):
+assert (Temperature >= 0),"Colder than absolute zero!"
+return ((Temperature-273)*1.8)+32
+print KelvinToFahrenheit(273)
+print int(KelvinToFahrenheit(505.78))
+print KelvinToFahrenheit(-5)
+ 
 ![image](https://user-images.githubusercontent.com/115523263/208497551-83cb17f4-5933-4c1b-a24e-525045f66e18.png)
 
 try:
